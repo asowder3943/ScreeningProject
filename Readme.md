@@ -2,7 +2,7 @@ Javascript Graphing Calculator
 ==============================
 
 # Introduction
-In this exercise we will be creating a simple javascript graphing calculatormake sure the graph is erased before plotting new functions application. The end product will take a mathematical equation, along with the bounds on which to graph the equation. A series of points along the curve will be calculated, returned and plotted. in addition a delta x (dx) term will be input as well that describes how often these points will be graphed. (more on all of this later) 
+In this exercise we will be creating a simple javascript graphing calculator. The end product will take a mathematical equation, along with the bounds on which to graph the equation. A series of points along the curve will be calculated, returned and plotted. in addition a delta x (dx) term will be input as well that describes how often these points will be graphed. (more on all of this later) 
 
 This exercise will help you better understand the following topics
 
