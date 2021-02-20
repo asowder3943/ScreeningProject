@@ -1,0 +1,4 @@
+This is an example txt file. 
+
+You should create other txt files in this directory 
+as needed to follow along with the exercise

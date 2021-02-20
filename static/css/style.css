@@ -1,0 +1,11 @@
+canvas.graph {
+    border:1px solid black; 
+    display: block; 
+    margin: 0 auto;
+}
+
+form.graphProps {
+    padding-top: 1%;
+}
+
+/* Put styles for background color and centered title below */
