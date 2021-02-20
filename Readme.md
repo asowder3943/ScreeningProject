@@ -26,14 +26,14 @@ The sections of this exercise are meant to be completed one at a time and after 
 
 ## Step 2 - Getting started with the exercise(10 min)
 5. Fork THIS gitHub repository (see youtube to learn what forking is)
-6. in the responses directory - create a response_1.txt file with your name in it. commit and push the changes for review.
+6. In the responses directory - create a response_1.txt file with your name in it. commit and push the changes for review.
 
 ## Step 3 - Simple Edits (15 min)
 1. Edit the index.html and add a large title above the html canvas.
 2. Edit the script.js to get not just the x1 value from the form, but all of the inputs from the form. 
 3. Edit the style.css to change the background of the body of the page to a light gray color. 
 4. Use css and HTML to center the new title you created in the html
-5. commit all changes and push to repository for review
+5. Commit all changes and push to repository for review
 
 ## Step 4 - Validating user input with if/else and math(1 hr)
 Currently the input that you are using in the script.js has not been validated in any way. In this section you will make sure the input values meet the following criteria:
@@ -44,9 +44,9 @@ Currently the input that you are using in the script.js has not been validated i
 
 Preform all of these validations in the graph function in the script.js file.
 
-If any inputs fail to meet these criteria then alert the user using the alert() method (look it up) and break out (reurn from) the graph function
+If any inputs fail to meet these criteria then alert the user using the alert() method (look it up) and break out (return from) the graph function
 
-when finished, commit and push all changes to github for review.
+When finished, commit and push all changes to github for review.
 
 ## Step 5 - Regex practice (1 hr)
 1. Watch a few youtube videos on regex and be familiar with text pattern searching
@@ -68,7 +68,7 @@ The html 5 canvas has a coordinate system with (0,0) in the top left of the canv
 
 Create a function convertCoords that accepts the output of the getCalculations function (which will be contained within the coordinates (x1, getMax) in the top left, and (x2, getMin) in the bottom right) and scale it to match the coordinates of the html5 canvas coordinate system
 
-convertCoords( [[-10, -10],[0, 0],[10, 10]] should return [[0, 500],[250, 250],[500, 0]]
+convertCoords([[-10, -10],[0, 0],[10, 10]]) should return [[0, 500],[250, 250],[500, 0]]
 
 ## Step 8 - GRAPHING (1 hr)
 Create a function plotCoords that takes the output of the convertCoords functsion as input and plots small squares on the html canvas arround each coordinate. 
@@ -79,9 +79,9 @@ Create a function plotCoords that takes the output of the convertCoords functsio
 
 Do everything that you can to make the application look pretty. 
 
-make sure you commit and push after making small changes that are related to single issues. You should not style the entire page and build in tons of new stuff before commiting. Smaller commits are easier for others to review and make it **MUCH** easier for you to roll back changes if you accidently break something in the furure.
+Make sure you commit and push after making small changes that are related to single issues. You should not style the entire page and build in tons of new stuff before commiting. Smaller commits are easier for others to review and make it **MUCH** easier for you to roll back changes if you accidently break something in the furure.
 
 here are a couple of items to get you started:
-1. draw grid lines on the html 5 canvas
-2. add an icon to the title bar that looks like a calculator
-3. make sure the canvase is erased before plotting new expressions after the graph button is pressed
+1. Draw grid lines on the html 5 canvas
+2. Add an icon to the title bar that looks like a calculator
+3. Make sure the canvase is erased before plotting new expressions after the graph button is pressed
